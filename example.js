@@ -1,6 +1,6 @@
 var websms = require('./index.js');
 
-var client = new websms.Client('abcd', '1234');
+var client = new websms.Client('APITOKEN!');
 var message = new websms.TextMessage('Huhu', ['1234']);
 var binmessage = new websms.BinaryMessage(["BQAD/AIBWnVzYW1tZW4=", "BQAD/AICZ2Vmw7xndC4="], ['1234']);
 
